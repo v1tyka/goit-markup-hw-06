@@ -23,22 +23,8 @@ header {
 .logostudio {
   color: #2e2f42;
 }
-.studio {
-  color: #2e2f42;
-  letter-spacing: 0.02em;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.portfolio {
-  color: #2e2f42;
-  letter-spacing: 0.02em;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
+.studio,
+.portfolio,
 .contacts {
   color: #2e2f42;
   letter-spacing: 0.02em;
@@ -57,7 +43,7 @@ header {
 .contacts:focus {
   color: #404bbf;
 }
-.contacts {
+.contacts2 {
   font-style: normal;
 }
 .mail,
