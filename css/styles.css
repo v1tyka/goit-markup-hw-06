@@ -1,0 +1,90 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  color: #434455;
+}
+header {
+  background-color: #e7e9fc;
+}
+.studio,
+.portfolio,
+.contacts {
+  color: #4d5ae5;
+}
+.studio:hover,
+.portfolio:hover,
+.contacts:hover {
+  color: aqua;
+}
+.studio:focus,
+.portfolio:focus,
+.contacts:focus {
+  color: #404bbf;
+}
+.solutions {
+  background-color: #2e2f42;
+}
+.button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 4px;
+  text-decoration: underline;
+}
+.our-team {
+  color: #2e2f42;
+}
+.team {
+  background-color: #f4f4fd;
+}
+.mark,
+.tom,
+.camila,
+.daniel {
+  background-color: #ffffff;
+}
+.mail:hover,
+.telephone:hover {
+  color: aqua;
+}
+.mail:focus,
+.telephone:focus {
+  color: #404bbf;
+}
+.banking-app,
+.cashless-payment,
+.meditation-app,
+.taxi-service,
+.screen-illustrations,
+.online-courses {
+  background-color: #e7e9fc;
+}
+footer {
+  background-color: #2e2f42;
+}
+.footer-text {
+  color: #f4f4fd;
+}
+h1 {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 56px;
+  letter-spacing: 2px;
+  line-height: 60px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 2px;
+}
+h3 {
+  font-weight: medium;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
