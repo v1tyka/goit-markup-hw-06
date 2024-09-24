@@ -29,6 +29,9 @@ header {
   color: #2e2f42;
   letter-spacing: 0.02em;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .studio:hover,
 .portfolio:hover,
@@ -38,6 +41,25 @@ header {
 .studio:focus,
 .portfolio:focus,
 .contacts:focus {
+  color: #404bbf;
+}
+.contacts {
+  font-style: normal;
+}
+.mail,
+.telephone {
+  color: #434455;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.mail:hover,
+.telephone:hover {
+  color: #404bbf;
+}
+.mail:focus,
+.telephone:focus {
   color: #404bbf;
 }
 .solutions {
@@ -66,10 +88,32 @@ header {
 .button:focus {
   background-color: #404bbf;
 }
-.team-title {
-  font-weight: 500px;
+.strategy-title,
+.punctuality-title,
+.diligence-title,
+.technologies-title {
+  font-weight: 500;
+  font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.strategy,
+.punctuality,
+.diligence,
+.technologies {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: #434455;
+}
+.team-title {
+  font-weight: 500px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  font-size: 36px;
+  text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .team {
@@ -82,22 +126,19 @@ header {
   background-color: #ffffff;
   line-height: 1.11;
   text-align: center;
-}
-.contacts {
-  font-style: normal;
-}
-.mail,
-.telephone {
-  color: #434455;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
-.mail:hover,
-.telephone:hover {
-  color: #404bbf;
-}
-.mail:focus,
-.telephone:focus {
-  color: #404bbf;
+.portfolio-title {
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  font-size: 36px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .banking-app,
 .cashless-payment,
@@ -105,10 +146,20 @@ header {
 .taxi-service,
 .screen-illustrations,
 .online-courses {
+  line-height: 1.11;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
   background-color: #e7e9fc;
 }
-footer {
+.footer {
   background-color: #2e2f42;
+}
+.logostudio-footer {
+  color: #f4f4fd;
 }
 .footer-text {
   color: #f4f4fd;
