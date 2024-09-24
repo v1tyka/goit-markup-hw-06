@@ -23,8 +23,22 @@ header {
 .logostudio {
   color: #2e2f42;
 }
-.studio,
-.portfolio,
+.studio {
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.portfolio {
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 .contacts {
   color: #2e2f42;
   letter-spacing: 0.02em;
@@ -108,7 +122,7 @@ header {
   color: #434455;
 }
 .team-title {
-  font-weight: 500px;
+  font-weight: 500;
   line-height: 1.11;
   letter-spacing: 0.02em;
   font-size: 36px;
