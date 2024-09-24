@@ -93,6 +93,9 @@ header {
   line-height: 1.5;
   color: #434455;
 }
+.team {
+  background-color: #f4f4fd;
+}
 .team-title {
   font-weight: 500;
   line-height: 1.11;
@@ -102,21 +105,21 @@ header {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.team {
-  background-color: #f4f4fd;
-}
-.mark,
-.tom,
-.camila,
-.daniel {
+.list {
   background-color: #ffffff;
-  line-height: 1.11;
-  text-align: center;
+}
+.list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.list-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .portfolio-title {
   line-height: 1.11;
