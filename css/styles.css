@@ -1,9 +1,9 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  letter-spacing: 2px;
+  letter-spacing: 0.02em;
   line-height: 1.5;
   color: #434455;
   background-color: #ffffff;
@@ -11,15 +11,29 @@ body {
 header {
   background-color: #e7e9fc;
 }
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logostudio {
+  color: #2e2f42;
+}
 .studio,
 .portfolio,
 .contacts {
-  color: #4d5ae5;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+  font-weight: 500;
 }
 .studio:hover,
 .portfolio:hover,
 .contacts:hover {
-  color: aqua;
+  color: #404bbf;
 }
 .studio:focus,
 .portfolio:focus,
@@ -29,16 +43,33 @@ header {
 .solutions {
   background-color: #2e2f42;
 }
+.effective-solutions {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 56px;
+  letter-spacing: 0.02em;
+  line-height: 1.07;
+  text-align: center;
+}
 .button {
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
-  letter-spacing: 4px;
+  letter-spacing: 0.04em;
   text-decoration: underline;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
 }
-.our-team {
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
+.team-title {
+  font-weight: 500px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .team {
@@ -49,10 +80,20 @@ header {
 .camila,
 .daniel {
   background-color: #ffffff;
+  line-height: 1.11;
+  text-align: center;
+}
+.contacts {
+  font-style: normal;
+}
+.mail,
+.telephone {
+  color: #434455;
+  letter-spacing: 0.02em;
 }
 .mail:hover,
 .telephone:hover {
-  color: aqua;
+  color: #404bbf;
 }
 .mail:focus,
 .telephone:focus {
@@ -71,21 +112,4 @@ footer {
 }
 .footer-text {
   color: #f4f4fd;
-}
-h1 {
-  color: #ffffff;
-  font-weight: bold;
-  font-size: 56px;
-  letter-spacing: 2px;
-  line-height: 60px;
-}
-h2 {
-  font-weight: bold;
-  font-size: 36px;
-  letter-spacing: 2px;
-}
-h3 {
-  font-weight: medium;
-  font-size: 20px;
-  letter-spacing: 2px;
 }
