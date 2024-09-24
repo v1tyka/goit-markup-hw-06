@@ -23,9 +23,7 @@ header {
 .logostudio {
   color: #2e2f42;
 }
-.studio,
-.portfolio,
-.contacts {
+.links {
   color: #2e2f42;
   letter-spacing: 0.02em;
   font-weight: 500;
@@ -33,36 +31,30 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.studio:hover,
-.portfolio:hover,
-.contacts:hover {
+.links:hover {
   color: #404bbf;
 }
-.studio:focus,
-.portfolio:focus,
-.contacts:focus {
+.links:focus {
   color: #404bbf;
 }
-.contacts2 {
+.contacts-section {
   font-style: normal;
 }
-.mail,
-.telephone {
+.contacts {
   color: #434455;
   letter-spacing: 0.02em;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.mail:hover,
-.telephone:hover {
+.contacts:hover {
   color: #404bbf;
 }
-.mail:focus,
+.contacts:focus,
 .telephone:focus {
   color: #404bbf;
 }
-.solutions {
+.solutions-section {
   background-color: #2e2f42;
 }
 .effective-solutions {
@@ -88,20 +80,14 @@ header {
 .button:focus {
   background-color: #404bbf;
 }
-.strategy-title,
-.punctuality-title,
-.diligence-title,
-.technologies-title {
+.solutions-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.strategy,
-.punctuality,
-.diligence,
-.technologies {
+.solutions {
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
