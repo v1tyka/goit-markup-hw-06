@@ -8,8 +8,34 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+a {
+  text-decoration: none;
+}
 header {
-  background-color: #e7e9fc;
+  background: #fff;
+}
+.header-container {
+  box-sizing: border-box;
+  border-bottom: 1px solid #e7e9fc;
+  width: 1440px;
+  height: 72px;
+  display: flex;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 0px;
+}
+.links-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+}
+.contacts-container {
 }
 .logo {
   font-family: "Raleway", sans-serif;
