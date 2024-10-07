@@ -239,6 +239,7 @@ nav {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .portfolio-paragraph {
   font-size: 16px;
@@ -255,8 +256,21 @@ nav {
   display: inline-block;
   margin-bottom: 16px;
 }
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .footer-text {
   color: #f4f4fd;
+  max-width: 264px;
 }
 .container {
   width: 1158px;
