@@ -147,7 +147,7 @@ nav {
   gap: 24px;
 }
 .solutions-menu-item {
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
   padding-left: 0;
   margin: 0;
 }
