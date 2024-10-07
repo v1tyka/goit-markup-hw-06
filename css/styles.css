@@ -185,6 +185,8 @@ nav {
   background-color: #ffffff;
   width: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
+  padding-left: 0;
+  margin: 0;
 }
 .list-title {
   font-weight: 500;
@@ -205,8 +207,6 @@ nav {
 .team-contrainer {
   padding-top: 32px;
   padding-bottom: 32px;
-  padding-left: 0;
-  margin: 0;
 }
 .portfolio-section {
   padding: 120px 0 120px 0;
