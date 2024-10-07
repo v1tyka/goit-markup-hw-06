@@ -14,9 +14,12 @@ img {
 a {
   text-decoration: none;
 }
-header {
+.page-header {
   background: #fff;
   border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
 }
 nav {
   display: flex;
@@ -44,6 +47,7 @@ nav {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .logostudio {
   color: #2e2f42;
@@ -68,14 +72,16 @@ nav {
 .contacts-section {
   font-style: normal;
 }
+.contacts-menu {
+  display: flex;
+  gap: 40px;
+}
 .contacts {
   color: #434455;
   letter-spacing: 0.02em;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  display: flex;
-  gap: 40px;
 }
 .contacts:hover {
   color: #404bbf;
