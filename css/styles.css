@@ -147,7 +147,7 @@ nav {
   gap: 24px;
 }
 .solutions-menu-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .solutions-title {
   font-weight: 500;
