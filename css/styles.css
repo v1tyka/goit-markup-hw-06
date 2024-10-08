@@ -144,10 +144,13 @@ nav {
 }
 .solutions-menu {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
 }
 .solutions-menu-item {
   width: calc((100% - 72px) / 4);
+  padding-left: 0;
+  margin: 0;
 }
 .solutions-title {
   font-weight: 500;
