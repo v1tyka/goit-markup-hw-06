@@ -55,7 +55,7 @@ a {
   display: flex;
   gap: 40px;
 }
-.menu::after {
+.links::after {
   content: "";
   width: 100%;
   position: absolute;
