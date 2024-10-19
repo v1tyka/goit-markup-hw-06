@@ -247,7 +247,6 @@ a {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 .list {
   background-color: #ffffff;
@@ -281,6 +280,9 @@ a {
   gap: 24px;
   flex-shrink: 0;
   margin-top: 8px;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
 }
 .social-links .social.icon {
   display: flex;
