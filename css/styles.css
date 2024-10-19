@@ -136,6 +136,7 @@ a {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin: 0 auto;
 }
 .effective-solutions {
   color: #ffffff;
@@ -192,7 +193,6 @@ a {
   height: 112px;
   background: #f4f4fd;
   margin-bottom: 8px;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
