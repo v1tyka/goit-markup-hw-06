@@ -195,11 +195,7 @@ a {
   margin-bottom: 8px;
   align-items: center;
   justify-content: center;
-}
-.solutions-icon {
   display: flex;
-  margin-top: 24px;
-  margin-left: 100px;
 }
 .solutions-options {
   padding: 120px 0 120px;
