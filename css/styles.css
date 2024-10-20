@@ -379,6 +379,13 @@ a {
   background-color: #2e2f42;
   padding: 100px 0 100px;
 }
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+.logo-container {
+  margin-right: 120px;
+}
 .logostudio-footer {
   color: #f4f4fd;
   display: inline-block;
