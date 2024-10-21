@@ -418,11 +418,12 @@ a {
 .social-media-list {
   display: flex;
   align-self: center;
-  gap: 16x;
+  gap: 16px;
 }
 .media-item {
   width: 40px;
   height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-media-link {
   width: 100%;
