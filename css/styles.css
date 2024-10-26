@@ -479,7 +479,7 @@ a {
   border-radius: 4px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
+  padding: 72px 24px 24px 24px;
   overflow-y: auto;
   position: absolute;
   top: 50%;
@@ -509,17 +509,56 @@ a {
 .form-button:hover {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
-.form-button:hover {
+.form-button:focus {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 .button-svg {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.button-svg:hover {
-  fill: #ffffff;
+.modal-paragraph {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 16px;
 }
-.button-svg:focus {
-  fill: #ffffff;
+.form-container {
+  margin-bottom: 8px;
+}
+.form-label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: block;
+  margin-bottom: 4px;
+}
+.input-container {
+  position: relative;
+}
+.input-form {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  padding-left: 38px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-color: #4d5ae5;
+}
+.svg-form {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.input-form + .svg-form {
 }
