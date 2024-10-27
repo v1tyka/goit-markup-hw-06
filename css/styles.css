@@ -604,7 +604,7 @@ a {
   justify-content: center;
   fill: transparent;
 }
-.privacy-span:checked {
+.privacy-input:checked + .privacy-label > .privacy-input {
   background-color: #404bbf;
   border: none;
 }
