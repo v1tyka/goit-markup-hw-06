@@ -604,3 +604,7 @@ a {
   justify-content: center;
   fill: transparent;
 }
+.privacy-span:checked {
+  background-color: #404bbf;
+  border: none;
+}
