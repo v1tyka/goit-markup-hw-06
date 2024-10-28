@@ -642,6 +642,7 @@ a {
 }
 .footer-form {
   display: flex;
+  gap: 24px;
 }
 .footer-label {
   gap: 24px;
