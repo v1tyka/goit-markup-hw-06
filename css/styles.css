@@ -488,6 +488,7 @@ a {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
 }
 .form-button {
   position: absolute;
@@ -634,6 +635,9 @@ a {
   margin: auto;
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+.footer-form-container {
+  padding-left: 80px;
 }
 .footer-form-paragraph {
   margin-bottom: 16px;
