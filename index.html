@@ -58,10 +58,16 @@
             </li>
           </ul>
         </address>
+
+        <button type="button" class="burger-btn">
+          <svg class="burger-svg" width="24" height="24">
+            <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
-      <section class="solutions-section">
+      <section class="solutions-section hidden">
         <div class="container">
           <h1 class="effective-solutions">
             Effective Solutions for Your Business
@@ -69,7 +75,7 @@
           <button class="button" type="button">Order Service</button>
         </div>
       </section>
-      <section class="solutions-options">
+      <section class="solutions-options hidden">
         <div class="container">
           <h2 class="visually-hidden">1</h2>
           <ul class="solutions-menu">
@@ -124,12 +130,13 @@
           </ul>
         </div>
       </section>
-      <section class="team">
+      <section class="team hidden">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list">
             <li class="list">
               <img
+                srcset="./images/img-3.jpg x1, ./images/img-9.jpg x2"
                 src="./images/img-3.jpg"
                 width="264"
                 alt="mark guerrero product designer"
@@ -173,6 +180,7 @@
 
             <li class="list">
               <img
+                srcset="./images/img-2.jpg x1, ./images/img-8.jpg x2"
                 src="./images/img-2.jpg"
                 width="264"
                 alt="tom ford frontend developer"
@@ -214,6 +222,7 @@
             </li>
             <li class="list">
               <img
+                srcset="./images/img-1.jpg x1, ./images/img-7.jpg x2"
                 src="./images/img-1.jpg"
                 width="264"
                 alt="camila garcia
@@ -256,6 +265,7 @@
             </li>
             <li class="list">
               <img
+                srcset="./images/img.jpg x1, ./images/img-6.jpg x2"
                 src="./images/img.jpg"
                 width="264"
                 alt="daniel wilson ui designer"
@@ -298,7 +308,7 @@
           </ul>
         </div>
       </section>
-      <section class="portfolio-section">
+      <section class="portfolio-section hidden">
         <div class="container">
           <h2 class="our-portfolio-title">Our Portfolio</h2>
           <ul class="porfolio-list">
@@ -402,7 +412,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer hidden">
       <div class="container footer-container logo-container">
         <div class="logo-container">
           <a class="logo-footer" href="./index.html">
@@ -469,7 +479,7 @@
         </div>
       </div>
     </footer>
-    <div class="modal-overlay">
+    <div class="modal-overlay hidden">
       <div class="modal">
         <button class="form-button" type="button" name="button">
           <svg class="button-svg" width="8" height="8">
