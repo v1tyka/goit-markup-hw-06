@@ -411,16 +411,29 @@ button {
 }
 
 /* solutions mobile */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .solutions-icon {
   display: none;
 }
 .solutions-menu {
   margin-top: 96px;
   display: block;
-  padding: 0 16px;
 }
 .solutions-menu-item {
   padding-bottom: 72px;
+  min-width: 288px;
 }
 .solutions {
   font-weight: 500;
@@ -437,4 +450,20 @@ button {
   text-align: center;
   color: #2e2f42;
   margin-bottom: 8px;
+  padding: 0 16px;
+}
+
+/* solutions tablet */
+
+@media screen and (min-width: 768px) {
+  .solutions-menu {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .solutions-menu-item {
+    padding-bottom: 72px;
+    max-width: 736px;
+  }
 }
