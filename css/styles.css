@@ -738,7 +738,6 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
 }
 .logostudio-footer {
   color: #f4f4fd;
@@ -751,13 +750,13 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: flex;
   margin-bottom: 16px;
+  display: flex;
   justify-content: center;
 }
 .footer-text {
   color: #f4f4fd;
-  min-width: 264px;
+  max-width: 264px;
 }
 .social-media-paragraph {
   font-weight: 500;
@@ -765,9 +764,10 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin: 72px auto 16px;
   display: flex;
   justify-content: center;
+  margin-bottom: 16px;
+  margin-top: 72px;
 }
 .social-media-list {
   display: flex;
@@ -798,27 +798,24 @@ button {
 .social-media-icons {
   fill: #f4f4fd;
 }
-.footer-form-container {
-  flex-wrap: wrap;
-  display: flex;
-  justify-content: center;
-}
+
 .footer-form-paragraph {
-  margin: 72px 0 16px 0;
+  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+  text-align: center;
+  margin-top: 72px;
 }
 .footer-form {
-  gap: 24px;
-}
-.footer-label {
-  gap: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .footer-input {
-  width: 264px;
+  width: 288px;
   height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
@@ -829,6 +826,7 @@ button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
+  margin-bottom: 16px;
 }
 .footer-input::placeholder {
   color: #ffffff;
@@ -852,4 +850,52 @@ button {
 }
 .svg-footer-button {
   margin-left: 16px;
+}
+
+/* tablet footer */
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 102px 0 90px 0;
+  }
+  .logo-container {
+    padding-right: 24px;
+  }
+  .footer-container {
+    align-items: baseline;
+  }
+  .logo-footer {
+    justify-content: flex-start;
+    margin-bottom: 16px;
+  }
+  .social-media-paragraph {
+    justify-content: flex-start;
+  }
+  .footer-form-paragraph {
+    justify-content: flex-start;
+  }
+  .footer-form-paragraph {
+    text-align: start;
+  }
+  .footer-input {
+    width: 264px;
+    margin-right: 24px;
+  }
+}
+
+/* laptop footer */
+
+@media screen and (min-width: 1158px) {
+  .logo-container {
+    padding-right: 100px;
+  }
+  .social-media-list {
+    display: flex;
+    padding-right: 80px;
+  }
+  .footer-container {
+    flex-wrap: nowrap;
+  }
+  .footer-form-container {
+  }
 }
