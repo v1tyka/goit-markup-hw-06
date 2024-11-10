@@ -56,7 +56,6 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -340,11 +339,20 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/img-name.jpg);
+    url(../images/hero.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   margin: 0 auto;
+}
+@media (min-resolution: 192dpi) {
+  .solutions-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-2x.jpg);
+  }
 }
 .effective-solutions {
   font-weight: 700;
