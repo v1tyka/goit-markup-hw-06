@@ -778,6 +778,7 @@ button {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  gap: 72px;
 }
 .logostudio-footer {
   color: #f4f4fd;
@@ -803,7 +804,6 @@ button {
 }
 .social-media-footer {
   text-align: center;
-  margin-bottom: 72px;
 }
 .social-media-paragraph {
   color: #fff;
