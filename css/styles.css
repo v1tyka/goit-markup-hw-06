@@ -778,7 +778,6 @@ button {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 72px;
 }
 .logostudio-footer {
   color: #f4f4fd;
@@ -968,6 +967,7 @@ button {
   }
   .footer-text {
     margin-bottom: 0;
+    max-width: 264px;
   }
   .social-media-footer {
     margin-right: 80px;
